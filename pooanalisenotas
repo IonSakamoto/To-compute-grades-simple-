@@ -1,0 +1,21 @@
+package com.mycompany.pooanalisenotas;
+
+import java.util.Scanner;
+
+
+public class POOAnaliseNotas {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+            System.out.println("Seja Bem Vindo");
+            System.out.print("Qual Foi a Nota A1? ");
+        float a1 = scan.nextInt();
+            System.out.print("Qual Foi a Nota A2? ");
+        float a2 = scan.nextInt();    
+            System.out.print("Qual Foi a Nota A3? ");
+        float a3 = scan.nextInt();
+            System.out.print("Qual Foi a Nota A4? ");
+        float a4 = scan.nextInt();
+    Aluno aluno = new Aluno(a1, a2, a3, a4);
+        System.out.println( aluno );
+    }
+}
